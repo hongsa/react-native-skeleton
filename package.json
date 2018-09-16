@@ -1,0 +1,38 @@
+{
+  "name": "chuldenDiary",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-navigation": "^1.1.486",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.6.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-react-native": "4.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.6.0",
+    "react-native-dotenv": "^0.2.0",
+    "react-test-renderer": "16.3.1",
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
